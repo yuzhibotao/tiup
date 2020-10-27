@@ -49,7 +49,7 @@ server_configs:
     binlog.enable: false
     binlog.ignore-error: false
   tikv:
-    # server.grpc-concurrency: 4
+    # server.grpc-concurrency: 4 
     # raftstore.apply-pool-size: 2
     # raftstore.store-pool-size: 2
     # rocksdb.max-sub-compactions: 1
